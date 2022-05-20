@@ -29,9 +29,9 @@ void loop() {
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_LEFT);
   display.setFont(ArialMT_Plain_10);
-  display.drawString(0, 0, "ADC1 " + String(analogReadmV(ADC1)));
-  display.drawString(0, 15, "ADC2 " + String(analogReadmV(ADC2)));
-  display.drawString(0, 30, "ADC3 " + String(analogReadmV(ADC3)));
+  display.drawString(0, 0, "ADC1 " + String(analogReadmV(ADC1)) + " mV");
+  display.drawString(0, 15, "ADC2 " + String(analogReadmV(ADC2)) + " mV");
+  display.drawString(0, 30, "ADC3 " + String(analogReadmV(ADC3)) + " mV");
   display.display();
   delay(500);
 }
