@@ -15,3 +15,6 @@ The inputs have a range of 0mV to 2400mV.
 
 If you want to learn more about the module, have a look at the Pinout and Schematic:
 https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/dev-board/htcc-ab02/hardware_update_log.html
+
+# Dev's
+Jan Sonntag - https://github.com/SirSundays
